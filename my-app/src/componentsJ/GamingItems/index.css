@@ -1,0 +1,32 @@
+.gaming-card-imager{
+    width:200px;
+    height:300px;
+}
+.gaming-single-card{
+    margin: 10px;
+    width:250px;
+}
+.gaming-full-container{
+    display: flex;
+    flex-direction: column;
+}
+.gaming-all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    /* justify-content: space-evenly; */
+}
+.light-white-text {
+    font-size: 18px; /* Small font */
+    letter-spacing: 0.5px; /* Slight letter spacing */
+    margin-bottom: 8px;
+  }
+  
+  .light-black-text {
+    font-size: 13px; /* Slightly larger for contrast */
+    font-weight: 500; /* Medium weight */
+    line-height: 1.6; /* Better readability */
+    border-left: 4px solid #888; /* Left border for a subtle highlight */
+    padding-left: 10px;
+  }
+  

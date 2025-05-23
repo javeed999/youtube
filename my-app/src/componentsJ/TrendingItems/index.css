@@ -1,0 +1,32 @@
+.name-and-fire{
+    display: flex;
+}
+.fire-heading{
+    margin: 0px 0px 0px 20px; 
+}
+.fire-icon{
+    margin: 7px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.FireHeading-Black{
+    color:rgb(27, 27, 27);
+}
+.FireHeading-White{
+    color:antiquewhite;
+}
+.Loader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.trending-items-display-25g{
+    /* background-color: black; */
+    min-height:1000px;
+    max-height:auto;
+    width:100%;
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+.item-container{
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width:250px;
+    color:black;
+   
+}
+.thumbnail{
+    width:240px;
+
+}
+.profile-image{
+    margin-top: 10px;
+    margin-right: 5px;
+    width:40px;
+    height:30px;
+}
+.videos-list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left:230px;
+    margin-top: 0px;
+    padding: 10px;
+    min-height:400px;
+}
+
+
+
+.item-title{
+    font-size: 12px;
+}
+.item-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.channel-name{
+    margin-top: 0px;
+    margin-left: 27px;
+    font-size: 12px;
+    color:#94a3b8;
+    margin-bottom: 0px;
+}
+.item-viewCount{
+    font-size: 13px;
+    color: #64748b;
+}
+.view-count-container{
+    margin-left:27px;
+    margin-top: 5px;
+}
+.trending-videos-list-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    margin-left:250px;
+}
+.trending-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.trending-image-1{
+    width:350px;
+    height:200px;
+
+    margin: 0px;
+    padding: 0px;
+}
+.trending-card-description{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.trending-span{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.changeColorTowhite{
+    color:white;
+}
+.input-container{
+   
+    margin-right: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.input-search{
+    outline:none;
+    width:300px;
+    height:25px;
+}
+.moveUp{
+    margin-top: -195px;
+}
+.loader-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    min-width: 100vh;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.changeBackGroundColor{
+    background-color: black;
+    /* min-height:500px; */
+}
+.helloJaveed{
+    background-color: red;
+}
+.not-videos-displaying{
+    width:700px;
+    height:400px;
+}
+.videos-not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.videos-not-found-button {
+    background-color: #ff4d4d; /* Red color for warning */
+    color: white; /* Text color */
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  
+  .videos-not-found-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+    transform: scale(1.05); /* Slight pop effect */
+  }
+  
+  .videos-not-found-button:active {
+    transform: scale(0.95); /* Button press effect */
+  }
+  
+  .videos-not-found-button:disabled {
+    background-color: #b3b3b3; /* Greyed out */
+    cursor: not-allowed;
+  }
+  .loader-container-card-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start ;
+  }

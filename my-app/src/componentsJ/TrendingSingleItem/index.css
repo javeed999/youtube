@@ -1,0 +1,19 @@
+.single-trend-image-8{
+    width:35%;
+    height:20%;
+}
+.trending-single-block{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 20px 10px;
+}
+.fireParaWhite{
+    color:#e2e8f0;
+}
+.fireParaBlack
+{
+    color:#231f20;
+}
+.image-right-side{
+    margin-left: 40px;
+}

@@ -1,0 +1,15 @@
+GET http://localhost:3000/data
+
+###
+POST http://localhost:3000/new
+Content-Type: application/json
+
+{
+  "name": "John",
+  "marks": 90,
+  "branch": "CSE"
+}
+
+###
+
+GET http://localhost:3000/find/John

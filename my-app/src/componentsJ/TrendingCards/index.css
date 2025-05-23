@@ -1,0 +1,15 @@
+.trending-right-container-jav{
+    display: flex;
+    flex-direction: column;
+}
+.applyBlackTrending{
+    width:100%;
+    background-color: black;
+
+}
+
+.trending-full-width-cover{
+    width:100%;
+    /* height:2000px; */
+
+}
